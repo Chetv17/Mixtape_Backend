@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['localhost', 'secret-beach-46849.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'songs_api',
     'corsheaders',
     'rest_framework',
     'playlists_api',
